@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    background-color: #293296; 
+    height: 100vh;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'barlow', sans-serif;
+    font-size: 2.375rem;
+    letter-spacing: 0.7rem;
+    color: #FFFF;
+}
+
+.right-container{
+    background-color: #FAF7F7;
+    width: 40rem;
+    margin: 4rem 10rem 4rem  0;
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-container .header{
+    color: #394159;
+    text-align: center;
+    margin: 2.6rem 0rem 0rem 0rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.right-container .sub-header{
+    color: #394159;
+    text-align: center;
+    margin: 3rem 0rem 2rem 0rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+form{
+    text-align: center;
+}
+
+
+label,input{
+    margin: 1rem 0;
+    justify-content: center;
+    font-family: 'barlow', sans-serif;
+    font-weight: 500;
+    
+}
+
+input{
+    padding: 1rem 7rem 1rem 1rem;
+    justify-content: center;
+    border: 0.8px solid #7C8396;
+}
+
+
+input[type=submit] {
+    padding: 1rem 7.3rem 1rem 7.2rem;
+    background: #293296;
+    color: #fff;
+    font-family: 'barlow',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+.button:hover{
+   cursor: pointer;
+}
+
+.signup{
+    text-decoration: none;
+    font-family: 'barlow',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7C8396;
+}
+
+a{
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
